@@ -302,24 +302,6 @@ body .container .play-list .play-list-row:after {
     visibility: hidden;
 }
 
-.bandimg {
-    /* width: 100% */
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* background-position: center center */
-    /* top: 0 */
-    /* bottom: 0 */
-    right: 0;
-    left: 0;
-    margin-top: 0;
-    height: 100%;
-    padding-top: 32%;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 @media (min-width:1200px) {
     .bandimg {
         padding-top: 32%;
