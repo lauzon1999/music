@@ -47,7 +47,7 @@ body .container .player {
   height: 60px;
   margin: 0;
   position: relative;
-  width: 400px;
+  width: 500px;
   
   /* Small devices (tablets, 768px and up) */
   /* Medium devices (desktops, 992px and up) */
@@ -56,17 +56,17 @@ body .container .player {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body .container .player {
-    width: 470px;
+    width: 570px;
   }
 }
 @media (min-width: 992px) and (max-width: 1100px) {
   body .container .player {
-    width: 470px;
+    width: 570px;
   }
 }
 @media (min-width: 1200px) {
   body .container .player {
-    width: 470px;
+    width: 570px;
   }
 }
 body .container .player .large-toggle-btn {
@@ -115,7 +115,7 @@ body .container .player .info-box .track-info-box {
   font-size: 13px;
   margin: 0 0 6px 0;
   visibility: hidden;
-  width: 400px;
+  width: 500px;
   *zoom: 1;
 }
 body .container .player .info-box .track-info-box .track-title-text {
@@ -124,7 +124,7 @@ body .container .player .info-box .track-info-box .track-title-text {
 body .container .player .info-box .track-info-box .audio-time {
   display: inline-block;
   padding: 0 0 0 10px;
-  width: 100px;
+  width: 150px;
 }
 body .container .player .info-box .track-info-box:before, body .container .player .info-box .track-info-box:after {
   content: " ";
@@ -139,7 +139,7 @@ body .container .player .info-box .track-info-box:after {
 }
 body .container .player .progress-box {
   float: left;
-  min-width: 270px;
+  min-width: 420px;
   position: relative;
 }
 body .container .player .progress-box .progress-cell {
@@ -172,7 +172,7 @@ body .container .player .progress-box .progress-cell .progress .progress-indicat
 }
 body .container .player .controls-box {
   bottom: 10px;
-  left: 350px;
+  left: 500px;
   position: absolute;
 }
 body .container .player .controls-box .previous-track-btn {
@@ -274,31 +274,6 @@ body .container .play-list .play-list-row:after {
   font-size: 0;
   height: 0;
   visibility: hidden;
-}
-
-header {
-  
-  text-align: center;
-  
-  
-}
-
-header h1 {
-  color: #1c3f85;
-text-shadow: rgba(255, 255, 255, 0.9) 0 1px ;
-}
-footer {
-  
-  text-align: center;
-}
-
-footer ul {
-  
-  text-align: left;
-  color: #99d8de;
-  font-size: 20px;
-  margin: 1em;
-  
 }
 
 /* СK */
