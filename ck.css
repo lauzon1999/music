@@ -276,6 +276,62 @@ body .container .play-list .play-list-row:after {
   visibility: hidden;
 }
 
+.bandimg {
+    /* width: 100% */
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-position: center center */
+    /* top: 0 */
+    /* bottom: 0 */
+    right: 0;
+    left: 0;
+    margin-top: 0;
+    height: 100%;
+    padding-top: 32%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media (min-width:1200px) {
+    .bandimg {
+        padding-top: 32%;
+        height: 1000px;
+    }
+}
+
+@media (max-width:767px) {
+    .bandimg {
+        padding-top: 223px;
+        height: 694px;
+    }
+}
+
+/* #playlist1 {
+    margin-top: 2%;
+    margin-left: 2%;
+} */
+/* @media (max-width:767px) {
+    #playlist1 {
+        ||*| width: 3 |*||
+        /* margin-top: -8px */
+/* margin-left: 5% */
+*/
+@media (min-width:768px) and (max-width:991px) {
+    #playlist1 {
+        /* margin-left: 20% */
+        /* margin-bottom: 2% */
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        padding: 5%;
+    }
+}
+    }
+}
 
 /* СK */
 .button{
