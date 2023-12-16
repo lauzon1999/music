@@ -24,7 +24,7 @@ body .container {
   font-family: arial, helvetica, sans-serif;
   font-size: 1em;
   margin: 0 auto;
-  width: 600px;
+  width: 700px;
   border-top: 5px solid #fff;
 
   
@@ -47,26 +47,26 @@ body .container .player {
   height: 60px;
   margin: 0;
   position: relative;
-  width: 500px;
+  width: 600px;
   
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
+  /* Small devices (tablets, 868px and up) */
+  /* Medium devices (desktops,1092px and up) */
+  /* Large devices (large desktops, 1300px and up) */
   *zoom: 1;
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1091px) {
   body .container .player {
-    width: 570px;
+    width: 670px;
   }
 }
-@media (min-width: 992px) and (max-width: 1100px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   body .container .player {
-    width: 570px;
+    width: 670px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   body .container .player {
-    width: 570px;
+    width: 670px;
   }
 }
 body .container .player .large-toggle-btn {
@@ -115,7 +115,7 @@ body .container .player .info-box .track-info-box {
   font-size: 13px;
   margin: 0 0 6px 0;
   visibility: hidden;
-  width: 500px;
+  width: 600px;
   *zoom: 1;
 }
 body .container .player .info-box .track-info-box .track-title-text {
@@ -124,7 +124,7 @@ body .container .player .info-box .track-info-box .track-title-text {
 body .container .player .info-box .track-info-box .audio-time {
   display: inline-block;
   padding: 0 0 0 10px;
-  width: 150px;
+  width: 250px;
 }
 body .container .player .info-box .track-info-box:before, body .container .player .info-box .track-info-box:after {
   content: " ";
